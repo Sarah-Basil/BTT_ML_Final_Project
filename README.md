@@ -19,7 +19,11 @@ The primary goal of this project is to build a regression model that can predict
 
 ## Data
 
-The dataset used in this project is sourced from Airbnb, which includes detailed information on listings. The data contains features like:
+This project uses a dataset provided by the Breakthrough Tech AI program, which is not publicly available. To run the notebook, you will need to use your own version of the dataset. Place your dataset file in the `data/` directory and ensure that the file paths in the notebook are correctly set.
+
+If you are part of the Breakthrough Tech AI program and have access to the dataset, save it in the `data/` directory with the correct filename as used in the notebook.
+
+The dataset used in this project is sourced from Airbnb, and provided by the Breakthrough Tech AI program. Unfortunately, the dataset is not publically available, and otherwise is too large to be uploaded (thus I believe this notebook unfortunately cannot be run locally). However, if you are part of the Breakthrough Tech AI program or otherwise have accces to the dataset, you would be able to utilize it by saving it as airbnbListingsData.csv (the file that was provided and the filename I use in the Jupyter Notebook). This dataset includes detailed information on listings, and contains features like:
 
 - Listing ID
 - Location (Neighborhood, City)
@@ -76,3 +80,5 @@ The model performance was evaluated using the following metrics:
   - R-squared: `0.7049`
 
 These results indicate that the model performs well in predicting Airbnb prices, with a reasonable balance between bias and variance.
+
+
